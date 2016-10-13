@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/bidi"
+	"github.com/scalingdata/go-x-text/internal/testtext"
+	"github.com/scalingdata/go-x-text/transform"
+	"github.com/scalingdata/go-x-text/unicode/bidi"
 )
 
 const (

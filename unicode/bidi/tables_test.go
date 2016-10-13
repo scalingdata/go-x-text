@@ -7,9 +7,9 @@ package bidi
 import (
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/internal/ucd"
+	"github.com/scalingdata/go-x-text/internal/gen"
+	"github.com/scalingdata/go-x-text/internal/testtext"
+	"github.com/scalingdata/go-x-text/internal/ucd"
 )
 
 var labels = []string{

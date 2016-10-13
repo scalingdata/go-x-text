@@ -7,7 +7,7 @@ package build
 import (
 	"testing"
 
-	"golang.org/x/text/internal/colltab"
+	"github.com/scalingdata/go-x-text/internal/colltab"
 )
 
 type ceTest struct {

@@ -9,14 +9,14 @@
 // Package collate contains types for comparing and sorting Unicode strings
 // according to a given collation order.  Package locale provides a high-level
 // interface to collation. Users should typically use that package instead.
-package collate // import "golang.org/x/text/collate"
+package collate // import "github.com/scalingdata/go-x-text/collate"
 
 import (
 	"bytes"
 	"strings"
 
-	"golang.org/x/text/internal/colltab"
-	"golang.org/x/text/language"
+	"github.com/scalingdata/go-x-text/internal/colltab"
+	"github.com/scalingdata/go-x-text/language"
 )
 
 // Collator provides functionality for comparing strings for a given

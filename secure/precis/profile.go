@@ -8,12 +8,12 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
-	"golang.org/x/text/runes"
-	"golang.org/x/text/secure/bidirule"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/width"
+	"github.com/scalingdata/go-x-text/cases"
+	"github.com/scalingdata/go-x-text/language"
+	"github.com/scalingdata/go-x-text/runes"
+	"github.com/scalingdata/go-x-text/secure/bidirule"
+	"github.com/scalingdata/go-x-text/transform"
+	"github.com/scalingdata/go-x-text/width"
 )
 
 var (

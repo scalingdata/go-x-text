@@ -2,7 +2,7 @@
 
 package number
 
-import "golang.org/x/text/internal/format/plural"
+import "github.com/scalingdata/go-x-text/internal/format/plural"
 
 type pluralTest struct {
 	locales string

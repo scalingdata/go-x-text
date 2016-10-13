@@ -7,9 +7,9 @@ package korean
 import (
 	"testing"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/transform"
+	"github.com/scalingdata/go-x-text/encoding"
+	"github.com/scalingdata/go-x-text/encoding/internal"
+	"github.com/scalingdata/go-x-text/transform"
 )
 
 func dec(e encoding.Encoding) (dir string, t transform.Transformer, err error) {

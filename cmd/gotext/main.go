@@ -25,7 +25,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/text/language"
+	"github.com/scalingdata/go-x-text/language"
 	"golang.org/x/tools/go/buildutil"
 )
 

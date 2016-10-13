@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/scalingdata/go-x-text/internal/testtext"
 )
 
 type compareTestCase struct {

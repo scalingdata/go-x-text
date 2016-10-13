@@ -12,15 +12,15 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/japanese"
-	"golang.org/x/text/encoding/korean"
-	"golang.org/x/text/encoding/simplifiedchinese"
-	"golang.org/x/text/encoding/traditionalchinese"
-	"golang.org/x/text/encoding/unicode"
-	"golang.org/x/text/encoding/unicode/utf32"
-	"golang.org/x/text/transform"
+	"github.com/scalingdata/go-x-text/encoding"
+	"github.com/scalingdata/go-x-text/encoding/charmap"
+	"github.com/scalingdata/go-x-text/encoding/japanese"
+	"github.com/scalingdata/go-x-text/encoding/korean"
+	"github.com/scalingdata/go-x-text/encoding/simplifiedchinese"
+	"github.com/scalingdata/go-x-text/encoding/traditionalchinese"
+	"github.com/scalingdata/go-x-text/encoding/unicode"
+	"github.com/scalingdata/go-x-text/encoding/unicode/utf32"
+	"github.com/scalingdata/go-x-text/transform"
 )
 
 func trim(s string) string {

@@ -7,7 +7,7 @@ package language_test
 import (
 	"fmt"
 
-	"golang.org/x/text/language"
+	"github.com/scalingdata/go-x-text/language"
 )
 
 func ExampleCanonType() {

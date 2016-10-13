@@ -7,8 +7,8 @@ package number
 import (
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/language"
+	"github.com/scalingdata/go-x-text/internal/testtext"
+	"github.com/scalingdata/go-x-text/language"
 )
 
 func TestInfo(t *testing.T) {

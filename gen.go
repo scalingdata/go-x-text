@@ -22,7 +22,7 @@ import (
 	"sync"
 	"unicode"
 
-	"golang.org/x/text/internal/gen"
+	"github.com/scalingdata/go-x-text/internal/gen"
 )
 
 var (

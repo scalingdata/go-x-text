@@ -15,7 +15,7 @@
 // UTS #46 is defined in http://www.unicode.org/reports/tr46.
 // See http://unicode.org/cldr/utility/idna.jsp for a visualization of the
 // differences between these two standards.
-package idna // import "golang.org/x/text/internal/export/idna"
+package idna // import "github.com/scalingdata/go-x-text/internal/export/idna"
 
 import (
 	"errors"
@@ -24,8 +24,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/text/secure/bidirule"
-	"golang.org/x/text/unicode/norm"
+	"github.com/scalingdata/go-x-text/secure/bidirule"
+	"github.com/scalingdata/go-x-text/unicode/norm"
 )
 
 // A Profile defines the configuration of a IDNA mapper.

@@ -7,7 +7,7 @@ package width
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/transform"
+	"github.com/scalingdata/go-x-text/transform"
 )
 
 type foldTransform struct {

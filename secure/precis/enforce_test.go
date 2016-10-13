@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/secure/bidirule"
+	"github.com/scalingdata/go-x-text/internal/testtext"
+	"github.com/scalingdata/go-x-text/secure/bidirule"
 )
 
 type testCase struct {

@@ -10,8 +10,8 @@ import (
 	"io"
 	"testing"
 
-	"golang.org/x/text/internal/format"
-	"golang.org/x/text/language"
+	"github.com/scalingdata/go-x-text/internal/format"
+	"github.com/scalingdata/go-x-text/language"
 )
 
 type formatFunc func(s fmt.State, v rune)

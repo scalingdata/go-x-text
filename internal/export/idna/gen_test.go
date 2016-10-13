@@ -7,9 +7,9 @@ package idna
 import (
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/internal/ucd"
+	"github.com/scalingdata/go-x-text/internal/gen"
+	"github.com/scalingdata/go-x-text/internal/testtext"
+	"github.com/scalingdata/go-x-text/internal/ucd"
 )
 
 func TestTables(t *testing.T) {

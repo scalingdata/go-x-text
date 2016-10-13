@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/scalingdata/go-x-text/internal/testtext"
 )
 
 var verbose = flag.Bool("verbose", false, "set to true to print the internal tables of matchers")

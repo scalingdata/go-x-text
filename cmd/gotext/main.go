@@ -26,7 +26,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/scalingdata/go-x-text/language"
-	"golang.org/x/tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
 )
 
 func init() {
